@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(32, 32, 32);
+  margin: 0px;
+}
+
+#dcoinsRtext {
+  position: absolute;
+  width: 350px;
+  height: 152px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 154px;
+  text-align: center;
+
+  background: url(/images/meshGradiant.png) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#lineR {
+  position: absolute;
+  width: 14px;
+  height: 947px;
+  left: 20%;
+  top: 0px;
+  background: url(/images/meshGradiant.png);
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #c2a6af;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10;
+  margin-left: 1820px;
+  margin-top: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 1743px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #8eabbf;
+}
